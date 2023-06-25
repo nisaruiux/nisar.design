@@ -1,0 +1,411 @@
+:root {
+  --body: #ffffff;
+  --para: #666666;
+
+
+  --potfoliobg: #ffffff;
+
+  --smicon: #4d4d4d;
+  --main: #89C5C3;
+  --main1: #ED6E5D;
+
+
+  --introbg: #ffffff;
+  --aboutbg: #ffffff;
+  --edubg: #ffffff;
+  --skillbg: #ffffff;
+  --contactbg: #ffffff;
+
+  --scroll: #cfcfcf;
+
+  /* -------------- */
+
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform: rotate(90deg);
+  cursor: pointer;
+}
+
+.arrow span {
+  display: block;
+  width: 1.5vw;
+  height: 1.5vw;
+  border-bottom: 5px solid white;
+  border-right: 5px solid white;
+  transform: rotate(45deg);
+  margin: -10px;
+  animation: animate 2s infinite;
+}
+
+.arrow span:nth-child(2) {
+  animation-delay: -0.2s;
+}
+
+.arrow span:nth-child(3) {
+  animation-delay: -0.4s;
+}
+
+@keyframes animate {
+  0% {
+      opacity: 0;
+      transform: rotate(45deg) translate(-20px, -20px);
+  }
+  50% {
+      opacity: 1;
+  }
+  100% {
+      opacity: 0;
+      transform: rotate(45deg) translate(20px, 20px);
+  }
+}
+
+.timeline {
+  border-left: 1px solid #fff1f1;
+  position: relative;
+  list-style: none;
+}
+
+.timeline .timeline-item {
+  position: relative;
+}
+
+.timeline .timeline-item:after {
+  position: absolute;
+  display: block;
+  top: 0;margin-top: 6px;
+}
+
+.timeline .timeline-item:after {
+  background-color: var(--main1);
+  left: -36px;
+  border-radius: 50%;
+  height: 8px;
+  width: 8px;
+  content: "";
+}
+
+#playcard1:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0);
+
+}
+
+#playcard2:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0);
+
+}
+
+#playcard3:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0);
+
+}
+
+
+
+
+#preloader {
+  background: var(--body) url(Circles-menu-3.gif) no-repeat center center;
+  background-size: 8vh;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  position: absolute;
+}
+
+@font-face {
+  font-family: railway;
+  src: url(Raleway-Medium.ttf);
+}
+
+@font-face {
+  font-family: mavenpro;
+  src: url(MavenPro-Medium.ttf);
+}
+
+#nav-tab button {
+  color: var(--para);
+  border: none;
+}
+
+#nav-tab button:hover {
+  border: none;
+}
+
+#nslogo {
+  height: 2.142vw;
+}
+
+#nav-tab button.active {
+  color: var(--smicon);
+  border-color: var(--body);
+  border-radius: 0;
+  box-sizing: border-box;
+  border-bottom: 3px solid var(--main);
+  box-shadow: none;
+  outline: none;
+}
+
+#nav-tab {
+  border-color: var(--body);
+}
+
+.tab-pane img:hover {
+  scale: 99%;
+  transition: 0.3s ease;
+}
+
+.carousel-indicators button.active {
+  opacity: 1;
+}
+
+#btn_download:hover {
+  background-color: var(--indigo);
+}
+
+#btn_download {
+  background-color: var(--main);
+  transition: all .2s ease-in-out;
+  border: none;
+}
+
+body::-webkit-scrollbar {
+  width: 0 !important;
+  display: none;
+}
+
+#tools::-webkit-scrollbar {
+  width: 0 !important;
+  display: none;
+}
+
+
+
+#scroll_indicator {
+  width: 100vw;
+  height: .2528vw;
+  background-color: var(--main1);
+}
+
+.scroll_indicator {
+  width: 100vw;
+  height: .2528vw;
+  background-color: var(--main);
+}
+#dropdwnwork{
+  align-content: center;
+}
+
+#dropdwnwork li a:focus{
+  background-color: var(--main);
+}
+#dropdwnwork li a:hover{
+  background-color: var(--main);
+}
+
+#nslogo {
+  height: 60px;
+}
+
+
+
+@media only screen and (min-width: 576px) {
+  #commonwidth {
+    width: 70vw;
+  }
+  #navbarNav ul li a:focus{
+    color: black;
+
+  }
+  #dropdwnwork li a{
+    text-align: left;
+  }
+  #parallax{
+    font-size: 6vh;
+    height: 15vw;
+   }
+
+  #mainhead {
+    font-size: 2.1vw;
+    width: 75%;
+  }
+  #mainhead1 {
+    width: 50%;
+  }
+  #mainbtns{
+    display: flex;
+    margin-top: 6vh;
+  }
+
+  #header {
+    height: 10vh;
+  }
+
+  #topmargin {
+    margin-top: 5vh;
+  }
+
+  #iconset svg {
+    width: 2vw;
+    height: 2vw;
+    fill: var(--para);
+  }
+
+  #iconset svg:hover {
+    fill: var(--smicon);
+  }
+
+  #btn_download {
+    display: flex;
+    font-size: 1vw;
+
+  }
+
+  #btn_download svg {
+    height: 1.8vw;
+  }
+
+  #headerhight {
+    width: 100vw;
+  }
+
+  #hamburger {
+    display: none;
+  }
+
+  #box {
+    transform: translateX(5%);
+    /* opacity: 0.2; */
+    transition: transform 0.5s ease;
+  }
+
+  #box.show {
+    transform: translateX(0);
+    /* opacity: 1; */
+  }
+
+  #box2 {
+    /* opacity: 0.2; */
+    transform: translateX(3%);
+    transition: transform 1s ease;
+  }
+
+  #box2.show2 {
+    /* opacity: 1; */
+    transform: translateX(0);
+
+  }
+
+  #tools svg {
+    margin-bottom: 2.142vw;
+  }
+
+  #nslogo {
+    height: 30px;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+
+
+  #commonwidth {
+    width: 95vw;
+  }
+  #mainhead {
+    font-size: 3.5vh;
+    width: 95%;
+  }
+
+  #topmargin {
+    margin-top: 0;
+  }
+
+}
+@media only screen and (max-width: 992px) {
+
+
+  #commonwidth {
+    width: 90vw;
+  }
+  #mainhead {
+    font-size: 3.5vh;
+    width: 95%;
+  }
+
+  #topmargin {
+    margin-top: 2vh;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 576px) {
+  #dropdwnwork li a{
+    text-align: center;
+  }
+  #mainhead {
+    font-size: 3.1vh;
+    width: 95%;
+  }
+  #mainhead1 {
+    width: 85%;
+  }
+  #btnconnect{
+    font-size: 14px;
+  }
+  #mainbtns{
+    display: grid;
+    margin-top: 6vw;
+  }
+
+  #iconset svg {
+    width: 9vw;
+    height: 9vw;
+    fill: var(--para);
+  }
+
+ #parallax{
+  font-size: 6vw;
+  height: 21vw;
+ }
+
+  #btn_download {
+    display: none;
+  }
+
+  #header {
+    padding: 0;
+    height: fit-content;
+  }
+
+  #mainccontainer {
+    padding: 0;
+    overflow-y: scroll;
+  }
+
+  #hamburger {
+    display: flex;
+  }
+
+  #nslogo {
+    height: 30px;
+  }
+
+  #commonwidth {
+    width: 95vw;
+  }
+
+  #topmargin {
+    margin-top: 0;
+  }
+  #justify{
+    text-align: justify;
+  }
+
+}
