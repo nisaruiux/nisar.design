@@ -30,7 +30,7 @@
         <div id="topmargin" class="row" style="display: flex;justify-content: center;">
             <nav id="commonwidth" class="container navbar navbar-expand-md navbar-light p-2">
                 <a class="navbar-brand" href="index.html"><img style="width: 30px;" src="logo.svg" alt="logo"></a>
-                <button style="border: none;padding: 0;" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                <button style="border: none;box-shadow: none;" class="navbar-toggler ps-3 pb-3 pe-0" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <img src="hamburger.svg" alt="">
@@ -168,17 +168,17 @@
                                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3"
                                     style="width: 100%;display: flex;justify-content: center;">
 
-                                    <div class="col text-center rounded-pill"> <a href="#"
+                                    <div class="col text-center rounded-pill"> <a href="#ajourney"
                                             style="width: 100%;background-color: #FFCEC7;"
                                             class="btn btn-sm  px-4 py-2 rounded-pill">
                                             <div>My Academic journey</div>
                                         </a></div>
-                                    <div class="col text-center rounded-pill"> <a href="#"
+                                    <div class="col text-center rounded-pill"> <a href="#djourney"
                                             style="width: 100%;background-color:#FFCEC7;"
                                             class="btn btn-sm px-4 py-2 rounded-pill">
                                             <div>My design journey</div>
                                         </a></div>
-                                    <div class="col text-center rounded-pill"> <a href="#"
+                                    <div class="col text-center rounded-pill"> <a href="#tjourney"
                                             style="width: 100%;background-color: #FFCEC7;"
                                             class="btn btn-sm  px-4 py-2 rounded-pill">
                                             <div>My tool journey</div>
@@ -200,7 +200,7 @@
 
 
 
-        <div class="row" style="margin-top: 4em;background-color: rgb(255, 252, 251);padding: 6vh 0;">
+        <div class="row" style="margin-top: 4em;background-color: rgb(255, 246, 243);padding: 6vh 0;">
             <div class="col-12">
                 <div class="row" style="display: flex;justify-content: center;align-items: center;">
                     <div id="commonwidth">
@@ -252,7 +252,7 @@
 
 
 
-        <div class="row " style="background-color: rgb(255, 255, 255);padding: 6vh 0;">
+        <div class="row " id="ajourney" style="background-color: rgb(255, 255, 255);padding: 6vh 0;">
             <div class="col-12">
                 <div class="row" style="display: flex;justify-content: center;">
                     <div id="commonwidth">
@@ -401,7 +401,7 @@
                 </div>
             </div>
         </div>
-        <div class="row " style="background-color:rgb(255, 252, 251);padding: 6vh 0;">
+        <!-- <div class="row " style="background-color:rgb(255, 246, 243);padding: 6vh 0;">
             <div class="col-12">
                 <div class="row" style="display: flex;justify-content: center;">
                     <div id="commonwidth">
@@ -452,8 +452,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row " style="background-color: rgb(255, 255, 255);padding: 6vh 0;">
+        </div> -->
+        <div class="row " id="djourney" style="background-color: rgb(255, 246, 243);padding: 6vh 0;">
             <div class="col-12">
                 <div class="row" style="display: flex;justify-content: center;">
                     <div id="commonwidth">
@@ -481,7 +481,11 @@
                                                             <section
                                                                 style="scroll-behavior: smooth;padding-right: 12px;">
                                                                 <ul class="timeline " id="timeline">
-                                                                    <li class="timeline-item mb-3">
+                                                                    <li class="timeline-item mb-5">
+                                                                        <div class="rounded mb-3"
+                                                                            style="width: 100px;height: 40px;background-position: center;background-repeat: no-repeat;background-size: cover; background-image: url(https://mir-s3-cdn-cf.behance.net/team/138/309485188099.5b9ada28eb2b5.jpg);">
+
+                                                                        </div>
                                                                         <h5
                                                                             style="font-size: 14px;font-weight: 500;font-family: mavenpro;">
                                                                             Desglobal
@@ -520,7 +524,12 @@
 
                                                                         </p>
                                                                     </li>
-                                                                    <li class="timeline-item mb-3">
+                                                                    <li class="timeline-item mb-5">
+
+                                                                        <div class="rounded mb-3"
+                                                                        style="width: 100px;height: 40px;background-position: center;background-repeat: no-repeat;background-size: cover; background-image: url(https://scontent.fccj2-1.fna.fbcdn.net/v/t39.30808-6/277439503_493151785722032_1668009286331998746_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=R3KrA36IOy8AX_TabkD&_nc_ht=scontent.fccj2-1.fna&oh=00_AfCqQgYs_-z5Dn5xXZ9mlmxO671RZpIjWKkT1-jhx32tiw&oe=649CE0CF);">
+                
+                                                                    </div>
 
                                                                         <h5
                                                                             style="font-size: 14px;font-weight: 500;font-family: mavenpro;">
@@ -611,7 +620,7 @@
                 </div>
             </div>
         </div>
-        <div class="row " style="background-color:rgb(255, 252, 251);padding: 6vh 0;">
+        <div class="row " id="tjourney" style="background-color:rgb(255, 255, 255);padding: 6vh 0;">
             <div class="col-12">
                 <div class="row" style="display: flex;justify-content: center;">
                     <div id="commonwidth">
@@ -630,107 +639,133 @@
 
                                         </div>
                                         <div class="col-md-8">
-                                            <div class="card-body pe-0">
+                                            <div  class="card-body pe-0" style="display: flex;justify-content: left;align-items: center;">
 
-                                                <div class="row row-cols-5 row-cols-sm-2 row-cols-md-6 g-5"
+                                                <div id="toolimg" class="row row-cols-5 row-cols-sm-2 row-cols-md-6 g-5"
                                                     style="display: flex;justify-content: left;">
 
 
                                                     <div class="col text-center rounded"
                                                         style="display: flex;justify-content: center;">
                                                         <div
-                                                            style="width: 70px;height: 40px;background-position: center;background-repeat: no-repeat;background-size: contain; background-image: url(figma.svg);">
+                                                            >
+                                                            <img  src="figma.svg" alt="">
+
 
                                                         </div>
                                                     </div>
                                                     <div class="col text-center rounded"
                                                         style="display: flex;justify-content: center;">
                                                         <div
-                                                            style="width: 70px;height: 40px;background-position: center;background-repeat: no-repeat;background-size: contain; background-image: url(framer.svg);">
+                                                            >
+                                                            <img  src="framer.svg" alt="">
+
 
                                                         </div>
                                                     </div>
                                                     <div class="col text-center rounded"
                                                         style="display: flex;justify-content: center;">
                                                         <div
-                                                            style="width: 70px;height: 40px;background-position: center;background-repeat: no-repeat;background-size: contain; background-image: url(xd.svg);">
+                                                            >
+                                                            <img  src="xd.svg" alt="">
+
 
                                                         </div>
                                                     </div>
                                                     <div class="col text-center rounded"
                                                         style="display: flex;justify-content: center;">
                                                         <div
-                                                            style="width: 70px;height: 40px;background-position: center;background-repeat: no-repeat;background-size: contain; background-image: url(ai.svg);">
+                                                            >
+                                                            <img  src="ai.svg" alt="">
+
 
                                                         </div>
                                                     </div>
                                                     <div class="col text-center rounded"
                                                         style="display: flex;justify-content: center;">
                                                         <div
-                                                            style="width: 70px;height: 40px;background-position: center;background-repeat: no-repeat;background-size: contain; background-image: url(ps.svg);">
+                                                            >
+                                                            <img  src="ps.svg" alt="">
+
 
                                                         </div>
                                                     </div>
                                                     <div class="col text-center rounded"
                                                         style="display: flex;justify-content: center;">
                                                         <div
-                                                            style="width: 70px;height: 40px;background-position: center;background-repeat: no-repeat;background-size: contain; background-image: url(id.svg);">
+                                                            >
+                                                            <img  src="id.svg" alt="">
+
 
                                                         </div>
                                                     </div>
                                                     <div class="col text-center rounded"
                                                         style="display: flex;justify-content: center;">
                                                         <div
-                                                            style="width: 70px;height: 40px;background-position: center;background-repeat: no-repeat;background-size: contain; background-image: url(ae.svg);">
+                                                            >
+                                                            <img src="ae.svg" alt="">
+
 
                                                         </div>
                                                     </div>
                                                     <div class="col text-center rounded"
                                                         style="display: flex;justify-content: center;">
                                                         <div
-                                                            style="width: 70px;height: 40px;background-position: center;background-repeat: no-repeat;background-size: contain; background-image: url(pr.svg);">
+                                                            >
+
+                                                            <img  src="pr.svg" alt="">
+
 
                                                         </div>
                                                     </div>
                                                     <div class="col text-center rounded"
                                                         style="display: flex;justify-content: center;">
                                                         <div
-                                                            style="width: 70px;height: 40px;background-position: center;background-repeat: no-repeat;background-size: contain; background-image: url(react.svg);">
+                                                           >
+
+                                                           <img  src="react.svg" alt="">
+
 
                                                         </div>
                                                     </div>
                                                     <div class="col text-center rounded"
                                                         style="display: flex;justify-content: center;">
                                                         <div
-                                                            style="width: 70px;height: 40px;background-position: center;background-repeat: no-repeat;background-size: contain; background-image: url(html.svg);">
+                                                            >
+                                                            <img  src="html.svg" alt="">
+
 
                                                         </div>
                                                     </div>
                                                     <div class="col text-center rounded"
                                                         style="display: flex;justify-content: center;">
                                                         <div
-                                                            style="width: 70px;height: 40px;background-position: center;background-repeat: no-repeat;background-size: contain; background-image: url(css.svg);">
+                                                            >
+                                                            <img  src="css.svg" alt="">
 
                                                         </div>
                                                     </div>
                                                     <div class="col text-center rounded"
                                                         style="display: flex;justify-content: center;">
                                                         <div
-                                                            style="width: 70px;height: 40px;background-position: center;background-repeat: no-repeat;background-size: contain; background-image: url(js.svg);">
+                                                            >
+                                                            <img  src="js.svg" alt="">
 
                                                         </div>
                                                     </div>
                                                     <div class="col text-center rounded"
                                                         style="display: flex;justify-content: center;">
                                                         <div
-                                                            style="width: 70px;height: 40px;background-position: center;background-repeat: no-repeat;background-size: contain; background-image: url(b5.svg);">
-
+                                                            >
+                                                    <img  src="b5.svg" alt="">
                                                         </div>
                                                     </div>
                                                     <div class="col text-center rounded"
                                                         style="display: flex;justify-content: center;">
                                                         <div
-                                                            style="width: 70px;height: 40px;background-position: center;background-repeat: no-repeat;background-size: contain; background-image: url(pcrt\ 1.png);">
+                                                            >
+                                                            <img  src="pcrt 1.png" alt="">
+
 
                                                         </div>
                                                     </div>
@@ -750,9 +785,9 @@
                 </div>
             </div>
         </div>
-        
+
     </div>
-    <div class="row mt-5" style="background-color:rgb(255, 255, 255);padding: 9vh 0;">
+    <div class="row mt-5" style="background-color: rgb(255, 246, 243);padding: 9vh 0;">
         <div class="col-12">
             <div class="row" style="display: flex;justify-content: center;">
                 <div id="commonwidth">
@@ -760,12 +795,12 @@
 
                         <div style="width: 100%;display: flex;justify-content: center;">
                             <div class="card " style="width: 100%;border: none;background-color: transparent;">
-                                <div class="row g-5" >
+                                <div class="row g-5">
                                     <div class="col" style="text-align: center;">
                                         <h4>Thank you <span style="color: var(--main1);">&#10084</span></h4>
                                     </div>
 
-                                   
+
                                 </div>
                             </div>
                         </div>
@@ -775,8 +810,8 @@
             </div>
         </div>
     </div>
-    
-    
+
+
 
     <div class="row" style="margin-top: 20vh;margin-bottom: 20vh;">
         <div class="col-12">
@@ -785,7 +820,7 @@
                     style="width: 70vw ;display: flex;justify-content: center;align-items: center;flex-direction: column;">
                     <div class="row" style="text-align: center;">
                         <h2 style="font-family: mavenpro;color: var(--main1);">Let’s connect</h2>
-                        <p style="margin-bottom: 2vh;">Get in touch for opportunities or just to say hi! &#128075
+                        <p style="margin-bottom: 2vh;line-height: 200%;font-size: 14px;">Get in touch for opportunities or just to say hi! &#128075
                         </p> <br>
 
                         <div id="iconset" style="align-items: center;margin-top: 2vh;">
@@ -866,11 +901,11 @@
                             </a>
                         </div>
                         <div style="margin-top: 4vh;">
-                            <p style="margin: 0;">Mail me:</p>
+                            <p style="margin: 0;line-height: 200%;font-size: 14px;">Mail me:</p>
                             <p style="font-family: mavenpro;">muhammednisarpktr@gmail.com</p>
-                            <p style="margin: 0;">Call or Whatsapp me:</p>
+                            <p style="margin: 0;line-height: 200%;font-size: 14px;">Call or Whatsapp me:</p>
                             <p style="font-family: mavenpro;">+91 9895 410 700</p>
-                            <p style="margin: 0;">Address:</p>
+                            <p style="margin: 0;line-height: 200%;font-size: 14px;">Address:</p>
                             <p style="font-family: mavenpro;">
                                 Pottammal(H), athanikkal, vellur(PO) 676517,<br>malappuram Dist., kerala, india
                             </p>
